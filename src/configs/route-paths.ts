@@ -2,6 +2,7 @@ export const routePaths = {
   AUTHENTICATION_LOGIN: "/authentication/login",
   HOME: "/",
   DASHBOARDS_ANALYTICS: "/dashboards/analytics",
+  DASHBOARDS_ECOMMERCE: "/dashboards/ecommerce",
   RESOURCES_PRODUCTS: "/resources/products",
   RESOURCES_CUSTOMERS: "/resources/customers",
   RESOURCES_CUSTOMER_GROUPS: "/resources/customer-groups",
