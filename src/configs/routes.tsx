@@ -11,6 +11,7 @@ import { isDevelopment } from "@/utils/mixin";
 
 const LoginPage = React.lazy(() => import("@/pages/authentication/login-page"));
 const HomePage = React.lazy(() => import("@/pages/home"));
+const EcommercePage = React.lazy(() => import("@/pages/dashboards/ecommerce-page"));
 const AnalyticsPage = React.lazy(() => import("@/pages/dashboards/analytics-page"));
 const ProductsPage = React.lazy(() => import("@/pages/resources/products-page"));
 const CustomersPage = React.lazy(() => import("@/pages/resources/customers-page"));
@@ -44,6 +45,10 @@ export const routes: RouteObject[] = [
       {
         path: routePaths.DASHBOARDS_ANALYTICS,
         element: <AnalyticsPage />,
+      },
+      {
+        path: routePaths.DASHBOARDS_ECOMMERCE,
+        element: <EcommercePage />,
       },
       {
         path: routePaths.RESOURCES_PRODUCTS,
